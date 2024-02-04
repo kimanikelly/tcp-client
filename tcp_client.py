@@ -4,4 +4,4 @@ print("Enter your target host")
 
 target_host = input()
 
-print(target_host)
+print("Verified output:", target_host)
