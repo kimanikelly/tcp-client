@@ -4,6 +4,8 @@ print("Enter your target host")
 
 target_host = input()
 
-taget_port = 80
+target_port = 80
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+client.connect((target_host, target_port))
